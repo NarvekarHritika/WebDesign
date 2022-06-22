@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        h1{
+            color: red;
+        }
+
+        .pink {
+            color: aqua;
+        }
+
+        .h {
+            color: purple;
+        }
+    </style>
+
+    <head>
+
+        <h1 style="color: blue;" class="pink h">Cat Page</h1>
+    </head>
+    <main>
+    <p>View more Click <a href="#">Here</a></p>
+    <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cat image"></a>
+
+    <p>Things cat likes:</p>
+    <ul>
+        <li>Milk</li>
+        <li>Catnip</li>
+        <li>Sleep</li>
+    </ul>
+
+    <p>Things cat hates:</p>
+    <ol>
+        <li>Bath</li>
+        <li>Walking</li>
+        <li>Running</li>
+    </ol>
+
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">Things
+        <label for="indoor"> 
+            <input type="checkbox" name="indoor-outdoor" id="indoor">
+        Indoor</label>
+        <label for="outdoor"> 
+                <input type="checkbox" name="indoor-outdoor" id="outdoor">
+        Outdoor</label>
+    </form>
+
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <label for="Lazy">
+            <input type="radio" name="Personality" id="Lazy">
+        Lazy</label>
+        <label for="Crazy">
+            <input type="radio" name="Personality" id="Crazy">
+        Crazy</label>
+        <label for="Sleepy">
+            <input type="radio" name="Personality" id="Sleepy">
+        Sleepy</label>
+    </form>
+
+    <input type="text" placeholder="Type here to submit" required>
+    <button type="submit">Submit</button>
+</main>
+</html>

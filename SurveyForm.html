@@ -1,0 +1,123 @@
+<html>
+
+<head>
+    <style>
+        #title {
+            font-size: 3em;
+            text-align: center;
+        }
+
+        #description {
+            font-size: 1em;
+        }
+
+        #container {
+            display: flex;
+            flex-flow: column wrap;
+            align-items:flex-start;
+            border-radius: 25px;
+            width: fit-content;
+            margin: auto;
+            padding: 20px;
+            height: 50vh;
+            border: black 3px solid;
+        }
+
+        #gender, #age, #personality {
+            font-size: 1.3em;
+        }
+        
+        #cmt, input[type="submit"] {
+            font-size: 1.3em;
+
+        } 
+
+    </style>
+</head>
+
+<body>
+    <h1 id="title">Sign Up Form</h1>
+    <p id="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt eveniet rerum, saepe, a
+        accusantium possimus nisi dolorum voluptatem ab vitae neque. Error, qui. Dolorum. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Ipsa eos accusamus saepe quo fuga corporis quae unde earum corrupti ab sit qui
+        exercitationem recusandae, explicabo fugiat veritatis repudiandae quaerat nisi ut natus in magnam alias?</p>
+    <form action="" id="survey-form">
+        <div id="container">
+            <div id="input-text">
+
+                <label for="name">Name:
+                    <input type="text" name="name" id="name" placeholder="Enter your name" id="name-label">
+                </label>
+                <br>
+
+                <label for="email">Email:
+                    <input type="email" name="email" id="email" placeholder="Enter your email" id="email-label">
+                </label>
+                <br>
+
+                <label for="phone">Phone No:
+                    <input type="number" name="number" id="number" placeholder="Enter your phone number" max="10"
+                        id="number-label">
+                </label>
+            </div>
+            <br>
+            <div id="gender">
+
+                <!-- Dropdown -->
+                <label for="gender">Select your Gender:
+
+                    <select name="gender" id="dropdown">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+            </div>
+            <br>
+            <div id="age">
+
+                <!-- Radio -->
+                <label>Select our Age:
+                    <label for="teenage">
+                        <input type="radio" name="age" value="teenage" id="teenage" checked>
+                        Teenage</label>
+                    <label for="greaterthan30">
+                        <input type="radio" name="age" value="greaterthan30" id="greaterthan30">
+                        Greater than 30</label>
+
+                </label>
+            </div>
+            <br>
+            <!-- Checkbox -->
+            <div id="personality">
+
+                <label>What is your personality:
+
+                    <label for="lazy">
+                        <input type="checkbox" name="personality" value="lazy" id="lazy">
+                        Lazy</label>
+                    <label for="nakli">
+                        <input type="checkbox" name="personality" value="nakli" id="nakli">
+                        Nakli</label>
+                </label>
+            </div>
+            <br>
+<div id="cmt">
+
+    <!-- TextArea -->
+    <label for="comment">Comment:
+        <br>
+        <textarea name="comment" id="comment" cols="35"></textarea>
+    </label>
+</div>
+    <br>
+    
+            <!-- Submit -->
+            <input type="submit" value="Submit" id="sumbit">
+
+        </div>
+    </form>
+
+</body>
+
+</html>

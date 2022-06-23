@@ -1,0 +1,37 @@
+.container{
+    height: 25px;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.red{
+    background: linear-gradient(  rgb(161, 0, 0), rgb(255, 107, 107), rgb(161, 0, 0));
+    box-shadow: 0 0 20px 0 red;
+}
+.green{
+    background: linear-gradient(  rgb( 0,161, 0), rgb( 107,255, 107), rgb(0, 161, 0));
+    box-shadow: 0 0 20px 0 green;
+}
+.blue{
+    background: linear-gradient(  rgb(0, 0, 161), rgb(164, 107, 255), rgb(0, 0, 161));
+    box-shadow: 0 0 20px 0 blue;
+}
+
+.cap, .slevee{
+    display: inline-block;
+
+}
+
+.cap{
+    width: 27%;
+    height: 25px;
+}
+
+.slevee{
+    background-color: #ffffff;
+    height: 25px;
+    width: 60%;
+    opacity: 0.5;
+    border-left: 10px double black;
+
+}

@@ -1,0 +1,64 @@
+/* texting */
+
+header h1{
+    text-align: center;
+    margin: -4px 0;
+    font-size: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.15px;
+
+}
+
+p{
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+article p {
+    margin: 2px 0;
+}
+
+.txt-large{
+    font-size: 40px;    
+}
+
+.right{
+    text-align: right;
+}
+
+
+/* container */
+.container{
+    width: 90%;
+    height: 90%;
+    border: 5px solid black;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+footer p{
+    font-size: 18px;
+}
+
+/* hr */
+.thick{
+    border: 7px solid black;
+}
+
+.mid{
+    border: 4px solid black;
+    background: black;
+
+}
+
+hr{
+    margin: 2px auto;
+}

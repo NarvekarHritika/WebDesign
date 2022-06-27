@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
         <title>Nutrition Label</title>
     </head>
 
@@ -37,11 +38,11 @@
                     </div>
                     <hr class="thin">                
                     <div class="con">
-                        <p class="txt-med"> Saturated Fat 1g</p><p class="txt-med"><b>5%</b></p>
+                        <p class="txt-med indent"> Saturated Fat 1g</p><p class="txt-med"><b>5%</b></p>
                     </div>
                     <hr class="thin">
                     <div class="con">
-                        <p class="txt-med"><i>Trans</i> Fat 0g</p>
+                        <p class="txt-med indent"><i>Trans</i> Fat 0g</p>
                     </div>
                     <hr class="thin">
                     <div class="con">
@@ -57,18 +58,18 @@
                     </div>
                     <hr class="thin">
                     <div class="con">
-                        <p class="txt-med"> Dietary Fiber 4g</p>
+                        <p class="txt-med indent"> Dietary Fiber 4g</p>
                     </div>
                     <hr class="thin">
                     <div class="con">
-                        <p class="txt-med"> Total Sugars 12g</p>
+                        <p class="txt-med indent"> Total Sugars 12g</p>
                     </div>
-                    <hr class="thin">
+                    <hr class="thin indent">
                     <div class="con">
-                        <p class="txt-med"> Includes 10g Added Sugars</p><p class="txt-med"><b>20%</b></p>
+                        <p class="txt-med dbl-indent"> Includes 10g Added Sugars</p><p class="txt-med"><b>20%</b></p>
                     </div>
                     <hr class="thin">
-                    <p><b>Protein</b> 3g</p>
+                    <p ><b>Protein</b> 3g</p>
                 </article>
                 <hr class="thick">
                 <article class="minerals">
@@ -97,3 +98,14 @@
     </body>
 
 </html>
+
+<!-- 
+differnece between my code and Site's code
+    My code     VS          Site's code
+
+1) Use <b></b> tag       -       use span.bold
+2) used hr for divider      -       used div for divider
+3) didnt use indentation        -       margin-left
+4)didnt need to use anything        -       used "clear: right;" to clear float property
+5) used flex space around property      -       used float for right alignment
+6) for text 230 i didnt change text size     -        the changed font size -->

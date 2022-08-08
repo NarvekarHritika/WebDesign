@@ -1,0 +1,12 @@
+.black-col{
+    background-color: black;
+    display: flex;
+    justify-content:flex-end;
+    color: white;
+
+}
+
+.con-right{
+    display: inline-block;
+    
+}

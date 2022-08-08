@@ -1,4 +1,4 @@
-nav li{
+    nav li{
     list-style: none;
     display: inline-block;
     font-size: 20px;
@@ -9,7 +9,7 @@ nav li{
 
 header h1, img, nav{
     display: inline-block;
-color:wheat;
+    color:wheat;
 }
 
 img{

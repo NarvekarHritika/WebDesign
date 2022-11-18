@@ -1,0 +1,23 @@
+.con{
+    border: solid black 4px
+}
+.grid-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.one{
+    padding: 30px;
+   
+}
+
+.grid{
+    padding: 30px;
+}
+
+.two{
+    background-color: hsl(179, 62%, 43%);  
+}
+.three{
+    background-color: hsl(179, 84%, 76%);  
+}
